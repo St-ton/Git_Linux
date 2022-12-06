@@ -1,0 +1,9 @@
+   0 ls -la / | head -8 | tail -5 > /tmp/sten.txt
+   1 export MYVAR=date
+   2 $MYVAR >> /tmp/sten.txt
+   3 df -h /
+   4 df -h / | awk '{print$3}' >> /tmp/sten.txt
+   5 chmod ugo+rw /tmp/sten.txt
+   
+ history > /tmp/sten_hist2608.txt
+ export_file sten_hist1908.txt 

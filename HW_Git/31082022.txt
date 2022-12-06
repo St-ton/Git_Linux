@@ -1,0 +1,30 @@
+Укажите след. команды:
+•	для полной очистки индекса
+git reset  
+
+•	для просмотра разницы между раб.каталогом и посл. Коммитом
+git diff
+git diff  – cached
+
+•	для создания новой ветки и одновременного переключения в на нее
+git checkout –b name_branch
+
+•	для сравнения веток между собой
+git diff name_branch1 name_branch2
+другой вариант
+git diff .. name_branch– сравнение ветки name_branch с текущей
+
+•	для загрузки ветки develop на удаленный репозиторий (GITHUB)
+git push -u origin develop
+
+•	для удаления локальной ветки
+git branch -d name_branch
+
+•	для слияния веток
+git merge name_branch1 name_branch2
+другой вариант
+git merge name_branch- слияние ветки name_branch с текущей
+
+•	для открытия (просмотра) файла по состоянию на какой-то коммит
+git show id_commit:файл
+

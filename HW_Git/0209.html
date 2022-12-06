@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+        font-size: 12px;
+      }
+      .question {
+color: grey;
+font-size: 1rem;
+padding-bottom: 3px;
+      } 
+      .answer {
+color: green;
+font-size: 1.1rem;
+padding-bottom: 15px;
+      }
+    </style>
+</head>
+<body>
+  <ul class ="question">First level: Коротко опишите: 
+<li class="question">что такое ветка в GIT </li>
+ <li class="answer">Ветка - это ответвления от основного кода (как резервная копия наших файлов программного продукта), который создаем для работе  сокдом. Создав ветку и работая в ней мы не беспокоимся за сохранность кода в основной ветке (мастера) от которой мы ответвлились.
+  Ветки также позволяют нескольким разработчикам вести свои разработки паралеьно, т.е. они работают каждый как бы со своей веткой, в конце которые можно все их соединить в основную.
+  </li>
+<li class="question">какое отношение имеют ssh-ключи к GITHUB</li>
+<li class="answer">Прописав ssh-ключи на гитхабе мы работаем с ниб без логина/пароля пользователя. Это позволяет используя ключ на разных компах (домашний, рабочий и т.д.) связать их с моим репозитарием без логина/пароля</li>
+<li class="question">что позволяет делать сервис GitHub Pages</li>
+<li class="answer">Это как временный хостинг. Он позвволяет посмотреть наш проект в браузере как аналог Live Server в VSC, только проект имеет свой адрес в интернет (как сайт) и его по ссылке может посмотерть любой пользователь</li>
+<li class="question">Укажите команды, которые выполняют след. действия (GIT):</li>
+<li class="question">создание, удаление веток;</li>
+<li class="answer">git branch name_branch – создание новой ветки<br>git branch -d name_branch</li>
+<li class="question">переключение между ветками;</li>
+<li class="answer">git checkout name_branch</li>
+<li class="question">загрузка и удаление веток на GitHub.</li>
+<li class="answer">git push origin name_branch<br>git push origin –delete name_branch </li>
+<li class="question">Коротко опишите, каким образом происходит публикация статического веб-сайта с помощью GitHub Pages.</li>
+<li class="answer">После выгрузки проекта на Гитхаб заходим в Setting-Pages, ds,bhftv Master - root и жмем Save. Через несколько минут появится ссылка на наш проект, которую открываем в браузере как сайт - </li>
+</ul>
+
+
+ 
+
+</body>
+</html>

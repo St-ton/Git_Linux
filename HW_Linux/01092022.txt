@@ -1,0 +1,4 @@
+
+1. Cделать папку на сервере в /opt/3536morning_b со своим именем
+
+/opt/3536morning_b/st_tonkich

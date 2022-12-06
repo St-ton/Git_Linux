@@ -1,0 +1,37 @@
+pwd
+cd ..
+ls 
+1 Создать файл в папке /temp и записать в него фразу “Hello student”
+cd tmp
+echo "Hello student" > sten.txt
+
+2 Добавить в него информацию из файла /etc/group (всю)
+cat /etc/group
+cat /etc/group >> sten.txt
+
+3 Добавить последнюю строку из команды df-h
+df -h
+df -h | tail -1 >> sten.txt
+
+Second level: 
+4 Добавить посчитанное количество строк из истории команд
+history 
+history| wc -l >> sten.txt
+
+5 Историю записать в файл
+history > sten_hist1908.txt
+export_file sten_hist1908.txt
+(export_file sten) - куда записывали инфу во время 1-5 задания
+6 Файл истории прислать в личном кабинете 
+
+
+
+
+
+
+
+
+
+
+
+h

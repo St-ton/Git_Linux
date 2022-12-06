@@ -1,0 +1,23 @@
+Вариант 1 - чтоб осмотреться, где нахожусь и с переходом в папку /tmp/
+   0 pwd
+   1 cd ..
+   2 ls
+   3 cd /tmp
+   4 echo "Hello Student" > sten.txt
+   5 cat /etc/group
+   6 cat /etc/group >> sten.txt
+   7 df -h
+   8 df -h | tail -1 >> sten.txt
+   9 history
+  10 history | wc -l >> sten.txt
+  11 history > sten_hist1908.txt
+ 
+Вариант 2 - профессиональный подход
+
+   1 echo "Hello Student" > /tmp/sten.txt
+   2 cat /etc/group >> /tmp/sten.txt
+   3 df -h | tail -1 >> /tmp/sten.txt
+   4 history | wc -l >> /tmp/sten.txt
+   5 history > /tmp/sten_hist1908.txt
+
+Выгрузка на свой ПК   export_file sten_hist1908.txt
